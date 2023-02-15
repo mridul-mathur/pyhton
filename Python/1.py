@@ -40,11 +40,10 @@ x=x^y
 print("Swapped: " , x,y)
 
 
-# #Volume of a sphere
-# print("Enter radius of sphere")
-# r = input ()
-# Volume = (4/3)(math.pi)(r**3)
-# print("Volume of Sphere :" , float(Volume))
+#Volume of a sphere
+r = float(input("Enter radius of sphere : "))
+v = 4*(math.pi)*(r**3)/3
+print("Volume of sphere is : " , v)
 
 
 # name = input("What's your name: ")
