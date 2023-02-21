@@ -10,6 +10,10 @@ sol = fact(n)
 print('The factorial is : ' , sol)
 
 
+#print prime numbe less then 20
+
+
+
 #print multiplication table of any number
 num = int(input('Enter the number : '))
 n=1
@@ -37,3 +41,18 @@ else:
 #                       ***
 #                       **
 #                       *
+def pypartup(n):
+    if n==0:
+        return
+    else:
+        pypartup(n-1)
+        print("* "*n)
+def pypartdown(n):
+    for a in range( n+1, 0, -1):    
+        for b in range(0, a - 1):  
+            print("*", end=' ')  
+        print(" ")
+
+n = int(input("Enter number of max stars: "))
+pypartup(n)
+pypartdown(n)
