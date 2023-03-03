@@ -7,11 +7,10 @@ def fact(n):
 
 n = int(input('Enter the num : '))
 sol = fact(n)
-print('The factorial is : ' , sol)
+print('The factorial is : ', sol)
 
 
 #print prime numbe less then 20
-
 
 
 #print multiplication table of any number
