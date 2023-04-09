@@ -55,3 +55,19 @@ def pypartdown(n):
 n = int(input("Enter number of max stars: "))
 pypartup(n)
 pypartdown(n)
+
+#Fibonacci series
+x = int(input('enter the number: '))
+a , b = 0 , 1
+if x<0:
+    print('Enter a positive integer')
+if x == 0:
+    print(0)
+elif x == 1:
+    print(1)
+else:
+    for i in range(0, x):
+        c = a + b
+        a = b
+        b = c
+        print(b)
