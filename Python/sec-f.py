@@ -24,8 +24,10 @@ except Exception as e:
 tup1 = (1, 2, 3, 4)
 print(len(tup1))
 
+
 #find the maximum and minimum K elements in a tuple
 tup1 = (100, 52, 33, 94, 51)
+
 
 #create a list of tuples from given list having number and its cube in each tuple
 list1 = [1, 2, 3, 4, 5]
