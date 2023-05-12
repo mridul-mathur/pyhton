@@ -56,7 +56,7 @@ for i in range(1, list1[-1]):
 print(list1)
 
 
-#Write a program that reads integers from the user and stores them in a list. Your program should continue reading values until the user enters 0. Then it should display all of the values entered by the user (except for the 0) in order from smallest to largest, with one value appearing on each line.
+# Write a program that reads integers from the user and stores them in a list. Your program should continue reading values until the user enters 0. Then it should display all of the values entered by the user (except for the 0) in order from smallest to largest, with one value appearing on each line.
 list1 = []
 val = int(input('Enter a number (0 to exit): '))
 while val != 0:
@@ -70,7 +70,7 @@ while val != 0:
             print(i)
 
 
-#Write a program that reads integers from the user until a blank line is entered. Once all of the integers have been read your program should display all of the negative numbers, followed by all of the zee, followed by all of the positive numbers. Within each group the numbers should be displayed in the same order that they were entered by the user.
+# Write a program that reads integers from the user until a blank line is entered. Once all of the integers have been read your program should display all of the negative numbers, followed by all of the zee, followed by all of the positive numbers. Within each group the numbers should be displayed in the same order that they were entered by the user.
 pos = []
 zee = []
 neg = []
