@@ -56,20 +56,20 @@ st_r.display()
 
 
 # multilevel inheritance
-class Std_Name:
+class St_Name:
     def __init__(self , n = ''):
         self.name = n
-class Std_Roll(Std_Name):
+class St_Roll(Std_Name):
     def __init__(self , n = '' , r = 0):
-        Std_Name.__init__(self , n)
+        St_Name.__init__(self , n)
         self.roll = r
-class Std_Marks(Std_Roll):
+class St_Marks(Std_Roll):
     def __init__(self , n = '' , r = 0 , m = 0):
-        Std_Roll.__init__(self , n , r)
+        St_Roll.__init__(self , n , r)
         self.marks = m
     def display(self):
         print('Name: ' , self.name)
         print('Roll: ' , self.roll)
         print('Marks: ' , self.marks)
-st_m = Std_Marks('Mridul' , 425 , 90)
+st_m = St_Marks('Mridul' , 425 , 90)
 st_m.display()
